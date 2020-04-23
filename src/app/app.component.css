@@ -1,0 +1,200 @@
+/* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: 
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.navbar{
+  height: 8px;
+  background-color: lightblack;
+  width: 100%;
+  padding-right: 10px;
+}
+.container-fluid
+{
+  height: 500px;
+  
+}
+
+.jumbotron
+{
+height: 5px;
+position:relative;
+background-color: lightcoral;
+width: 100%;
+}
+
+.jumbotron1
+{
+  width: 20%;
+  padding-left: 40%;
+}
+
+.jumbotron2
+{
+
+font-size: 20px;
+text-align: center;
+
+}
+
+.img1
+{
+  height: 420px;
+  border:3px solid black; 
+  border-radius: 13px;
+  width:389px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+.btn-group
+{
+  float: right;
+  background-color: #93A6BE;
+  height: 10px;
+  
+}
+
+.btn btn-primary dropdown-toggle1
+{
+  background-color:#93A6BE ;
+  height: 10px;
+}
+.dropdown-menu
+{
+  background-color:lightpink;
+  padding: 8px;
+}
+
+.btn btn-info
+{
+  background-color: #93A6BE;
+  padding: 70%;
+  height: 20px;
+  width: 50%;
+  font-size: 30px;
+}
+
+.nav-link
+{
+  background-size: auto;
+  padding-left:160px;
+  text-align: center;
+  width: 300px;
+  background-color: white;
+}
+.col-lg-3 img
+{
+ 
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.col-lg-3:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.nav-link
+{
+  background-color: lightskyblue;
+  float: right;
+  background-size:1px;
+}*/
+* {
+  box-sizing: border-box;
+}
+.map
+{
+  position: relative;
+ /* top:20px;
+  bottom: 50px;*/
+  width: 100%;
+}
+
+#spring
+{
+  position :absolute;
+  top:30px;
+  left: 400px;
+  width:100px;
+  }
+#autumn
+{
+position :absolute;
+top:30px;
+left: 510px;
+width:100px;
+}
+
+#monsoon
+{
+  position: absolute;
+  top:30px;
+  left:640px;
+  width:100px;
+}
+
+#pre-winter
+{
+  position: absolute;
+  top:30px;
+  left:770px;
+  width:100px;
+}
+
+#summer
+{
+  position: absolute;
+  top:30px;
+  left:900px;
+  width:100px;
+}
+#winter
+{
+  position: absolute;
+  top:30px;
+  left:1030px;
+  width:100px;
+}
+.centered
+{
+  position: absolute;
+  top: 45.5%;
+  left: 54%;
+  bottom: 190%;
+  transform: translate(-50%, -50%);
+  font-style: 20vw;
+}
+div.centered:hover,div.centered:active
+{
+  color:lightcoral;
+}
+.bottom-right 
+{
+  position: absolute;
+  bottom: 170px;
+  right: 6px;
+  left:52%;
+  top:56%;
+  padding-right: 510px; 
+
+}
+div.bottom-right:hover,div.bottom-right:active
+{
+  color: lightcoral;
+}
+
+
+
+

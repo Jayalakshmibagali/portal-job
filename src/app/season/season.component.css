@@ -1,0 +1,18 @@
+.container ul {
+    padding: 0;
+    list-style: none;
+}
+
+.container ul,
+.container #images {
+    float: left;
+    margin: 15px;
+}
+
+.container #images img:hover {
+    cursor: pointer;
+}
+
+.active {
+    border: 3px dotted brown;
+}
